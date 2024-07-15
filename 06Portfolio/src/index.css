@@ -1,0 +1,10 @@
+*{
+  margin:  0;
+  padding: 0;
+}
+body{
+  height: 100vh;
+  background-color:  #0c0a0a;
+  color: #eeecec;
+  font-family: cursive;
+}

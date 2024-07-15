@@ -1,0 +1,29 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.App.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.App.dark {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+/* Additional styles for components */
+.about, .cta, .footer, .header, .hero {
+  padding: 20px;
+}
+
+.about.light, .cta.light, .footer.light, .header.light, .hero.light {
+  background-color: #f0f0f0;
+  color: #000;
+}
+
+.about.dark, .cta.dark, .footer.light, .header.light, .hero.light {
+  background-color: #110f0f;
+  color: #fff;
+}
