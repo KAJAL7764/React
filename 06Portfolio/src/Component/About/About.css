@@ -38,7 +38,7 @@ gap: 80px;
     display: flex;
     flex-direction: column;
     gap: 20px;
-    font-size: 40px;
+    font-size: 25px;
     font-weight: 600;
 }
 .about-skills{
@@ -65,10 +65,7 @@ gap: 80px;
     width: 50%;
     height: 8px;
     border-radius: 50px;
-  
     background: linear-gradient(267deg,  #ff4e50 10%,  #f9d423 ); 
-
-
 }
 .about-achivements{
     display: flex;
@@ -87,15 +84,13 @@ gap: 80px;
 .about-achivement h1{
     font-size: 60px;
     font-weight: 700;
-
     background: linear-gradient(267deg,  #ff4e50 10%,  #f9d423 ); 
-
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 .about-achivement p{
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 500;
 }
 .about-skill:hover{
@@ -124,8 +119,8 @@ gap: 80px;
         display: none;
     }
     .about-para p{
-        font-size: 20px;
-        line-height: 34px;
+        font-size: 15px;
+        line-height: 4px;
         text-align: center;
     }
    
