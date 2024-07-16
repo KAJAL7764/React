@@ -1,11 +1,11 @@
 import React from 'react'
-import './Service.css'
+import './Services.css'
 import services_Data from '../../assets/services_data';
 import arrow_icons from '../../assets/arros_icons.png';
 
 const Services = () => {
   return (
-    <div id='service' className='services'>
+    <div id='services' className='services'>
       <div className='services-title'>
         <h1>MY Services</h1>
       </div>

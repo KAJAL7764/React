@@ -39,7 +39,7 @@ const Navbar = () => {
 <li> <AnchorLink className="anchor-link" offset={50} href='#about'> <p onClick={() => setMenu("about")}>About me</p> </AnchorLink></li>
 
   {/*Services navbar*/}
-<li> <AnchorLink className="anchor-link" offset={50} href='#Services'> <p onClick={() => setMenu("services")}>Services</p> </AnchorLink> </li>
+<li> <AnchorLink className="anchor-link" offset={50} href='#services'> <p onClick={() => setMenu("services")}>Services</p> </AnchorLink> </li>
 
   {/*Work navbar*/}
 <li> <AnchorLink className="anchor-link" offset={50} href='#mywork'> <p onClick={() => setMenu("work")}>My latest work</p> </AnchorLink></li>
