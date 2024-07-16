@@ -8,8 +8,7 @@ function About() {
       <section className={`${isDarkMode ? "about about--dark" : "about"}`}>
         <div className="container">
             <h2>About us</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, impedit corrupti. Reiciendis, accusantium. Tempore quam dolore dicta vero modi similique minus ex accusantium iure, quia sunt architecto accusamus ipsa sint.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nisi eum suscipit eligendi beatae quidem illo veritatis impedit maxime quia. Expedita sapiente repudiandae quidem harum dolores accusamus ipsam atque est!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum nulla perferendis asperiores maxime, vitae dolor! Tempora reiciendis corporis iure distinctio deleniti provident facilis voluptatibus minus, aspernatur suscipit dolorum iusto quae.</p>
         </div>
       </section>
     </div>
