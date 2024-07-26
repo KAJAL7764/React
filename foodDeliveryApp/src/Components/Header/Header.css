@@ -1,0 +1,70 @@
+.header{
+    height: 60vw;
+    margin: 20px auto;
+    background: url('/headerss.jpg') no-repeat;
+    background-size: contain;
+position: relative;
+}
+.header-contents{
+    position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1.5vw;
+    max-width: 50%;
+    bottom: 20%;
+    left: 6vw;
+    animation: zoom 2s;
+}
+.header-contents h1{
+    font-size: 4vw;
+    font-weight: 500;
+    color: #000000;
+}
+.header-contents P{
+    font-size: 1.75vw;
+    color: #4c4141;
+    line-height: 1;
+}
+.header-contents button{
+    background-color: #ff5151;
+    border: none;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1.25vw;
+    font-weight: 500;
+    /* transition: background-color 0.3s ease; */
+}
+
+.header-contents button:hover{
+    background-color: #fffbfb;
+    color: #000;
+}
+@media (max-width: 1050px) {
+    .header{
+        height: 60vw;
+    }
+    .header-contents{
+        max-width: 60%;
+    }
+    /* .header-contents h1{
+        font-size: 3vw;
+    }
+     */
+}
+@media (max-width: 768px) {
+    .header{
+        height: 50vw;
+    }
+    .header-contents{
+        max-width: 60%;
+    }
+    .header-contents p{
+        display: none;
+    }
+     .header-contents button{
+padding: 2vw 5vw;
+     }
+}

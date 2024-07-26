@@ -18,7 +18,7 @@ function reducer(state, { type, payload }) {
       if (state.overwrite) {
         return {
           ...state,
-          currentOperand: payload.digit,
+          currentOperand: payload.digit, 
           overwrite: false,
         };
       }
