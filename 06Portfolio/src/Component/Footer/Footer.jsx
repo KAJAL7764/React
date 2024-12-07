@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import './Footer.css';
 import footer_icon from '../../assets/footer_icon.png';
 import user from '../../assets/user_icon.png';

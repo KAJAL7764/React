@@ -6,7 +6,6 @@ import menu_open from '../../assets/menu_open.png';
 import menu_close from '../../assets/menu_close.png';
 import  { useRef } from 'react';
 
-// import nav_underline from '../../assets/nav_underline.png'
 const Navbar = () => {
   const[menu, setMenu] = useState("home")
   const menuRef = useRef();
@@ -49,63 +48,10 @@ const Navbar = () => {
 
   {/*Connect with me navbar*/}
 <div className="nav-connect"> <AnchorLink className="anchor-link" offset={50} href='#contact'>Connect with me</AnchorLink></div>
-      {/* </ul> */} 
+      {/* </ul>  */}
       </ul>
       </div>
  </> 
     )
 }
 export default Navbar;
-
-
-// import React, { useState } from "react";
-// import { Link } from 'react-scroll';
-// import './Navbar.css';
-// import logo from '../../assets/logo.png';
-// import nav_underline from '../../assets/nav_underline.png';
-
-// const Navbar = () => {
-//   const [menu, setMenu] = useState("home");
-
-//   return (
-//     <div id='navbar' className="navbar">
-//       <img src={logo} alt="logo"/>
-//       <ul className="nav-menu"> 
-//         <li>
-//           <Link className="andchor-link" to="home" smooth={true} offset={50} duration={500} onClick={() => setMenu("home")}>
-//             <p>home</p>
-//           </Link>
-//           {menu === "home" ? <img src={nav_underline} alt='nav underline'/> : null}
-//         </li>
-//         <li>
-//           <Link className="andchor-link" to="about" smooth={true} offset={50} duration={500} onClick={() => setMenu("about")}>
-//             <p>About me</p>
-//           </Link>
-//           {menu === "about" ? <img src={nav_underline} alt='nav underline'/> : null}
-//         </li>
-//         <li>
-//           <Link className="andchor-link" to="services" smooth={true} offset={50} duration={500} onClick={() => setMenu("services")}>
-//             <p>Services</p>
-//           </Link>
-//           {menu === "services" ? <img src={nav_underline} alt='nav underline'/> : null}
-//         </li>
-//         <li>
-//           <Link className="andchor-link" to="mywork" smooth={true} offset={50} duration={500} onClick={() => setMenu("work")}>
-//             <p>Portfolio</p>
-//           </Link>
-//           {menu === "work" ? <img src={nav_underline} alt='nav underline'/> : null}
-//         </li>
-//         <li>
-//           <Link className="andchor-link" to="contact" smooth={true} offset={50} duration={500} onClick={() => setMenu("contact")}>
-//             <p>Contact</p>
-//           </Link>
-//           {menu === "contact" ? <img src={nav_underline} alt='nav underline'/> : null}
-//         </li>
-//       </ul>
-//       <div className="nav-connect">Contact with me</div>
-//     </div>
-//   );
-// }
-
-// export default Navbar;
-

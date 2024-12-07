@@ -1,6 +1,5 @@
-import React from 'react'
+// import React from 'react'
 import './Contact.css';
-// import theme_pattern from '../../assets/theme_pattern.png';
 import mail_icons from '../../assets/mail_icons.png'
 import call_icons from '../../assets/call_icons.png'
 import location_icon from '../../assets/location_icon.png'
@@ -38,23 +37,29 @@ const Contact = () => {
     </div>
       <div className="contact-section">
         <div className="contact-left">
-            <h1>Let's talk</h1>
-            <p>If you're interested in collaborating on a project or just want to say hello, feel free to drop me a message. I'm always excited to connect with like-minded individuals and explore new opportunities.</p>
+            <h1>Let &apos; s talk</h1>
+            <p>If you &apos; re interested in collaborating on a project or just want to say hello, feel free to drop me a message. I &apos; m always excited to connect with like-minded individuals and explore new opportunities.</p>
             <div className="contact-details">
            <div className="contact-detail">
              <img src={mail_icons} alt="" />
              <p>kajal814900@gmail.com</p>
            </div>
+
+
            <div className="contact-detail">
              <img src={call_icons} alt="" />
              <p>+91 96*****188</p>
            </div>
+
+
            <div className="contact-detail">
              <img src={location_icon} alt="" />
-             <p>CA, Delhi</p>
+             <p>India, Delhi</p>
            </div>
             </div>
         </div>
+
+
         <form onSubmit={onSubmit} className='contact-right'>
             <label htmlFor="">Your Name</label>
             <input type="text" placeholder='Enter your name' name='name' />

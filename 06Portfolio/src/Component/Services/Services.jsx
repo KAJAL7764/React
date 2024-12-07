@@ -1,7 +1,7 @@
-import React from 'react'
+// import React from 'react'
 import './Services.css'
 import services_Data from '../../assets/services_data';
-import arrow_icons from '../../assets/arros_icons.png';
+import arrow_icons from '../../assets/arrow_icons.png';
 
 const Services = () => {
   return (

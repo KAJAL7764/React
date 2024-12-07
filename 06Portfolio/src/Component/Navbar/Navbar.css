@@ -1,96 +1,116 @@
- .navbar{
+.navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin: 20px 170px;
-} 
-.navbar img{
+}
+.navbar img {
   width: 150px;
   height: 150px;
   border-radius: 50%;
 }
- .nav-menu{
+.nav-menu {
   display: flex;
- align-items: center;
+  align-items: start;
   list-style: none;
   gap: 60px;
   font-size: 20px;
-} 
-.nav-connect{
-    padding: 20px 40px;
-    border-radius: 50px;
-    background: linear-gradient(267deg, #ff4e50.37%,  #f9d423 );
-    cursor: pointer;
-    transition: 1.05;
 }
-.nav-connect:hover{
-    transform: scale(1.05);
-    color: rgb(0, 0, 0);
+.nav-connect {
+  padding: 20px 40px;
+  border-radius: 50px;
+  background: linear-gradient(267deg, #af1417 37%, #f9d423);
+  font-size: 22px;
+  cursor: pointer;
+  transition: 0.05;
 }
-.nav-menu li{
+.nav-connect:hover {
+  transform: scale(1.05);
+  color: rgb(0, 0, 0);
+}
+.nav-menu li {
   display: flex;
-flex-direction: column;
-gap: 5px;
-cursor: pointer; 
-color: #634122;
-transition: transform 0.5s,color 0.5s;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+  color: #634122;
+  transition: transform 0.5s, color 0.5s;
 }
-.nav-menu li:hover{
+.nav-menu li:hover {
   transform: scale(1.5);
-   /* color: #d2691e;  */
-} 
-.nav-connect li img{
+  /* color: #d2691e;  */
+}
+.nav-connect li img {
   display: flex;
   margin: auto;
 }
-.anchor-link{
-text-decoration: none;
-color: #fff;
+.anchor-link {
+  text-decoration: none;
+  color: #fff;
 }
-.nav-mob-close{
+.nav-mob-close {
   display: none;
 }
-.nav-mob-open{
+.nav-mob-open {
   display: none;
-  
 }
-@media(max-width:768px){
-  .navbar{
+
+@media (max-width: 1024px) {
+  .navbar {
+    margin: 20px 100px;
+  }
+
+  .nav-menu {
+    gap: 20px;
+    font-size: 16px;  
+  }
+
+  .nav-connect {
+    font-size: 20px;
+  }
+
+  .nav-menu li {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
     margin: 12px 50px;
   }
-  .nav-connect{
+  .nav-connect {
     display: none;
   }
-  .nav-mob-open{
+  .nav-mob-open {
     display: block;
     position: fixed;
     right: 20px;
+    
   }
-  .nav-mob-close{
+  .nav-mob-close {
     display: block;
     position: relative;
-    top: 20px;
-    left: 60px;
-    width: 30px;
+    top: 0px;
+    left: 80px;
+    width: 20px;
   }
-  .nav-menu{
+  .nav-menu {
     position: fixed;
     flex-direction: column;
-    align-items: start;
+    align-items: center;
     top: 0;
     gap: 20px;
-    background-color:#1F0016;
+    background-color: #ff4e50;
     width: 300px;
     height: 100%;
     right: -350px;
-z-index: 2;
-transition: right 0.5s ;
+    z-index: 2;
+    transition: right 0.5s;
   }
-  .nav-menu li{
+  .nav-menu li {
     font-size: 30px;
     padding-left: 40px;
     flex-direction: row;
     gap: 20px;
-
   }
 }

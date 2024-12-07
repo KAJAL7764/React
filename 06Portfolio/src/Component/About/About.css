@@ -1,3 +1,4 @@
+
 .about{
     display: flex;
    flex-direction: column;
@@ -14,14 +15,7 @@ font-size: 80px;
 padding: 0px 30px;
 font-weight: 600;
 }
-.about-title img{
-position: absolute;
-height: 100px;
-width: 100px;
-bottom: 0;
-right: 0;
-z-index: -1;
-}
+
 .about-section{
 display: flex;
 gap: 80px;
@@ -29,10 +23,7 @@ gap: 80px;
 .about-right{
     display: flex;
     flex-direction: column;
-    gap: 80px;
-}
-.about-left img{
-  border-radius: 25px;
+    gap: 10px;
 }
 .about-para{
     display: flex;
@@ -41,6 +32,10 @@ gap: 80px;
     font-size: 25px;
     font-weight: 600;
 }
+/* .about-left img{
+  border-radius: 25px;
+} */
+
 .about-skills{
     display: flex;
     flex-direction: column;
@@ -51,11 +46,11 @@ gap: 80px;
     display: flex;
     gap: 50px;
     align-items: center;
-    transition: 0.5s;
+    transition: 0.3s;
 
 }
 .about-skill p{
-    min-width: 100px;
+    min-width: 150px;
     font-size: 24px;
     font-weight: 400;
 }
@@ -65,7 +60,7 @@ gap: 80px;
     width: 50%;
     height: 8px;
     border-radius: 50px;
-    background: linear-gradient(267deg,  #ff4e50 10%,  #f9d423 ); 
+    background: linear-gradient(267deg,  #af1417 10%,  #f9d423 ); 
 }
 .about-achivements{
     display: flex;
@@ -84,7 +79,7 @@ gap: 80px;
 .about-achivement h1{
     font-size: 60px;
     font-weight: 700;
-    background: linear-gradient(267deg,  #ff4e50 10%,  #f9d423 ); 
+    background: linear-gradient(267deg,  #af1417 10%,  #f9d423 ); 
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -101,6 +96,39 @@ gap: 80px;
     transform: scale(1.12);
     transform: 0.5s;
 }
+
+
+@media (max-width: 1024px) {
+    .about {
+      gap: 80px;
+      margin: 50px 100px;
+    }
+    .about-title h1 {
+      font-size: 50px;
+      padding: 0;
+    }
+    .about-section {
+      gap: 40px;
+    }
+    .about-right {
+      gap: 10px;
+    }
+    .about-para p {
+      font-size: 20px;
+      line-height: 32px;
+    }
+    .about-skill {
+      gap: 30px;
+    }
+    .about-achivements {
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+    .about-achivement {
+      flex: 1;
+    }
+  }
+/* Responsive */
 @media(max-width:768px){
     .about{
      gap: 80px;   
@@ -120,8 +148,7 @@ gap: 80px;
     }
     .about-para p{
         font-size: 15px;
-        line-height: 4px;
-        text-align: center;
+        line-height: 32px;
     }
    
     .about-skill{

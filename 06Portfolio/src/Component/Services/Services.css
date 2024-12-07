@@ -9,6 +9,26 @@ margin: 80px 170px;
 .services-title{
 position: relative;
 }
+
+.services-formate{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 60px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid #fff;
+    transition: 0.5;
+}
+
+.services-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    margin-bottom: 80px;
+}
+
 .services-title h1{
     padding: 0 30px;
     font-size: 89px;
@@ -16,12 +36,7 @@ position: relative;
     
     
 }
-.services-title img{
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    z-index: -1;
-}
+
 .services-readmore {
     display: flex;
     gap: 20px;
@@ -44,45 +59,29 @@ border-radius: 20px;
     cursor: pointer;
     transition: 0.5;
 }
-.services-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 40px;
-    margin-bottom: 80px;
-}
-.services-formate{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    padding: 60px;
-    border-radius: 10px;
-    cursor: pointer;
-    border: 2px solid #fff;
-    transition: 0.5;
-}
-.services-formate:hover{
-    border-radius: 20px;
-      border: 2px solid #ff4e50 ;
-   
-      background: linear-gradient(267deg,  #9a5253 10%,  #6c6750 ); 
-      transform: scale(1.05);
-      transition: 0.4s;
-    }
+
 .services-formate h3{
-    font-size: 44px;
+    font-size: 30px;
     font-weight: 800;
-    background: linear-gradient(267deg,  #ff4e50 10%,  #f9d423 ); 
-
-
+    background: linear-gradient(267deg,  #f36e70 50%,  #f9d423 ); 
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 .services-formate h2{
-    font-size: 30px;
+    font-size: 18px;
     font-weight: 400;
 }
+
+.services-formate:hover{
+    border-radius: 20px;
+      border: 2px solid #af1417;
+      background: linear-gradient(267deg,  #af1417 10%,  #6c6750 ); 
+      transform: scale(1.05);
+      transition: 0.4s;
+    }
+
+
 .services-formate h1{
     font-size: 15px;
     font-weight: 300;
@@ -90,6 +89,7 @@ border-radius: 20px;
 }
 .services-formate p{
     color: #d4d4d4;
+    font-size: 18px;
     font-size: 22px;
     line-height: 40px;
     max-width: 300px;
@@ -104,11 +104,6 @@ border-radius: 20px;
         padding: 0;
         font-size: 50px;
     }
-.services-title img{
-    width: 130px;
-    margin-right: -20px;
-}
-
     .services-formate{
         gap: 20px;
         padding: 32px;

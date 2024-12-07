@@ -1,5 +1,5 @@
 .bg {
-  background: linear-gradient(267deg, #da7c25 0.37%, #5b4561);
+  background: linear-gradient(267deg, #af1417 0.37%, #5b4561);
 }
 .contact {
   display: flex;
@@ -36,7 +36,7 @@
 .contact-left h1 {
   font-size: 40px;
   font-weight: 600;
-  background: linear-gradient(267deg, #ff4e50 10%, #f9d423);
+  background: linear-gradient(267deg, #af1417 10%, #f9d423);
 
   background-clip: text;
   -webkit-background-clip: text;
