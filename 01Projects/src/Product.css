@@ -1,0 +1,10 @@
+.product{
+    text-align: center;
+    background-color: aquamarine;
+    font-family: monospace;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 5px;
+}
