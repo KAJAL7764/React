@@ -1,0 +1,10 @@
+body {
+}
+.products {
+  border: 2px solid rgb(2, 1, 1);
+  text-align: center;
+  border-radius: 14px;
+  width: 200px;
+  margin: 10px;
+  height: 153px;
+}
